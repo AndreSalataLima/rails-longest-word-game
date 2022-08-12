@@ -1,7 +1,10 @@
-<h1>New game</h1>
+<div class="container">
+  <h1>New game</h1>
 
-<ul>
-  <% @letters.each do |letter| %>
-    <li><%= letter.capitalize %></li>
-  <% end %>
-</ul>
+  <ul class="letters">
+    <% @letters.each do |letter| %>
+      <li><%= letter.capitalize %></li>
+    <% end %>
+  </ul>
+
+</div>
